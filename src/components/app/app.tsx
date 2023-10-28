@@ -3,15 +3,14 @@ import {
   Page404,
   AboutUsPage,
   Contacnts,
-  Portfolio,
-  Price,
+  Koloda1,
 } from "../../pages/index";
 import { Switch, Route, useLocation } from "react-router-dom";
 
 import AppHeader from "../app-header/app-header";
 
 import { Location } from "history";
-import PortfolioDetailPage from "../../pages/portfolio-detail";
+// import PortfolioDetailPage from "../../pages/portfolio-detail";
 import AppFooter from "../app-footer/app-footer";
 import Price2 from "../../pages/price-refactoring";
 
@@ -29,13 +28,12 @@ function App() {
         </Route>
         {/* <Route path="/portfolio" exact={true}>
           <Portfolio />
-        </Route>
-        <Route path="/price" exact={true}>
-          <Price />
-          <Price2 />
-        </Route> */}
+        </Route>*/}
         <Route path="/contacnts" exact={true}>
           <Contacnts />
+        </Route>
+        <Route path="/koloda1" exact={true}>
+          <Koloda1 />
         </Route>
         {/* <Route path="/portfolio/:photoId" component={PortfolioDetailPage} />
         <Route path="/about" exact={true}>

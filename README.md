@@ -1,4 +1,4 @@
-https://olgushe4ka.github.io/portfolio/
+https://olgushe4ka.github.io/mak/
 
 # Getting Started with Create React App
 

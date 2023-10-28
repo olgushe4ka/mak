@@ -18,9 +18,9 @@ function AppHeader() {
       // case "/portfolio":
       //   setActivePage("Портфолио");
       //   break;
-      // case "/price":
-      //   setActivePage("Услуги и цены");
-      //   break;
+      case "/koloda1":
+        setActivePage("Колода1");
+        break;
       case "/contacnts":
         setActivePage("Контакты");
         break;
@@ -58,15 +58,15 @@ function AppHeader() {
           }`}
         >
           <p className={`${headerStyles.menuText}`}>Портфолио</p>
-        </Link>
+        </Link>*/}
         <Link
-          to="/price"
+          to="/koloda1"
           className={`${headerStyles.menu} ${
-            activePage === "Услуги и цены" ? headerStyles.active : ""
+            activePage === "Колода1" ? headerStyles.active : ""
           }`}
         >
-          <p className={`${headerStyles.menuText}`}>Услуги и цены</p>
-        </Link> */}
+          <p className={`${headerStyles.menuText}`}>Колода1</p>
+        </Link>
         <Link
           to="/contacnts"
           className={`${headerStyles.menu} ${

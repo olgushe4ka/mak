@@ -1,0 +1,28 @@
+.imageDescriptionContainer {
+  display: flex;
+  min-height: 70vh;
+  padding: 30px;
+}
+
+.imageContainer {
+  width: 250px;
+}
+
+.imageContainer img {
+  max-width: 250px;
+}
+
+.descriptionContainer {
+  padding-left: 20px;
+  max-width: 250px;
+}
+
+@media (max-width: 770px) {
+  .imageDescriptionContainer {
+    flex-direction: column;
+  }
+
+  .descriptionContainer {
+    padding-left: 0;
+  }
+}
