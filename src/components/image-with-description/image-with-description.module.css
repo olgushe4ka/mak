@@ -12,6 +12,11 @@
   max-width: 250px;
 }
 
+.imageContainer :hover{
+ cursor: pointer;
+ opacity: 0.8;
+}
+
 .descriptionContainer {
   padding-left: 20px;
   max-width: 250px;
