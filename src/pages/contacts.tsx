@@ -14,7 +14,7 @@ function Contacnts() {
         {" "}
         <div>
           <h2 className={styles.contactpageH2}>Контакты</h2>
-          <div className={styles.contactpageLocation}>
+          {/* <div className={styles.contactpageLocation}>
             <strong>город Казань</strong>
           </div>
 
@@ -63,7 +63,7 @@ function Contacnts() {
                 <FaTelegram /> Telegram
               </a>
             </p>
-          </div>
+          </div>*/}
         </div>
       </div>{" "}
     </>

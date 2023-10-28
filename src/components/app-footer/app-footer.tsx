@@ -6,8 +6,8 @@ function AppFooter() {
     <footer className={`${styles.footer} `}>
       {" "}
       <div className={styles.footerContainer}>
-        <p className={`${styles.text} `}>2023 год, Казань</p>
-        <div className={styles.contactBox}>
+        <p className={`${styles.text} `}>2023 год</p>
+        {/* <div className={styles.contactBox}>
           <a className={styles.contactpageContacts} href="tel:+79033883601">
             <FaPhone /> +7 903 388 36 01
           </a>
@@ -30,7 +30,7 @@ function AppFooter() {
           >
             <FaMailBulk /> E-mail
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

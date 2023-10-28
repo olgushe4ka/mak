@@ -1,4 +1,5 @@
 .main {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,4 +10,14 @@
 .aboutusText {
   max-width: 1500px;
   padding: 25px;
+}
+
+.imageContainer {
+  max-width: 100%;
+  height: auto;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  height: auto;
 }
