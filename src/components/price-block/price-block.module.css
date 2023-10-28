@@ -1,0 +1,92 @@
+.pricePage {
+  margin-bottom: 50px;
+  width: 750px;
+}
+
+.pricePageTitle {
+  margin: 0;
+  margin-bottom: 50px;
+  margin-top: 70px;
+  color: blueviolet;
+}
+
+.pricePageStepBox {
+  display: flex;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.pricePageNumber {
+  margin: 0;
+  position: absolute;
+  font-size: 100px;
+  margin: 0;
+  color: rgb(214, 211, 211);
+  z-index: -1;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+}
+
+.pricePageStepBoxDescription {
+  width: 200px;
+  margin: 0;
+}
+
+.pricePageStepBoxUl {
+  margin: 0;
+}
+
+.pricePagePriceBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: 600;
+}
+
+.pricePagePriceBox p {
+  margin: 0;
+  padding: 0;
+  margin-right: 2px;
+  padding: 2px;
+}
+
+.pricePagePriceBoxAmmount {
+  color: blueviolet;
+  font-weight: 600;
+}
+
+.pricePageStepBoxPomesheniya {
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.pricePagePriceBox2 {
+  justify-content: none;
+}
+
+.leftside {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.lineUp {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-top: 1px solid rgb(202, 202, 202);
+}
+
+@media (max-width: 770px) {
+  .pricePageStepBoxDescription {
+    font-size: 12px;
+    width: 100px;
+    align-self: center;
+    margin: auto 0;
+  }
+
+  .pricePageNumber {
+    font-size: 80px;
+  }
+}
