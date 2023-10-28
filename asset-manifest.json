@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.0e26f432.css",
+    "main.js": "./static/js/main.ff7218b4.js",
+    "static/js/787.2b4cbca8.chunk.js": "./static/js/787.2b4cbca8.chunk.js",
+    "static/media/makcard.jpg": "./static/media/makcard.94fe7d42de7f16f16775.jpg",
+    "index.html": "./index.html",
+    "main.0e26f432.css.map": "./static/css/main.0e26f432.css.map",
+    "main.ff7218b4.js.map": "./static/js/main.ff7218b4.js.map",
+    "787.2b4cbca8.chunk.js.map": "./static/js/787.2b4cbca8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e26f432.css",
+    "static/js/main.ff7218b4.js"
+  ]
+}
