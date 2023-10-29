@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.04);
+  background-color: antiquewhite;
 }
 
 .boxLeft {
@@ -25,14 +26,15 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-right: 40px;
+
 }
 
 .menuText {
   text-decoration: none;
   color: black;
   font-size: 18px;
+  font-weight: 600;
 }
 
 .menuText:hover {
@@ -40,7 +42,7 @@
 }
 
 .active p {
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .logo img {

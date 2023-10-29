@@ -1,4 +1,5 @@
 import styles from "./mainPage-styles.module.css";
+import a from "../images/makcard2.jpg"
 
 function MainPage() {
   return (
@@ -6,7 +7,7 @@ function MainPage() {
       <div className={`${styles.main}`}>
         <div className={styles.imageContainer}>
           <img
-            src={require("../images/makcard.jpg")}
+            src={a}
             alt="logo"
           />{" "}
         </div>
@@ -15,6 +16,7 @@ function MainPage() {
           <h2>
             Раскройте свои глубины с Метафорическими Ассоциативными Картами
             (МАК-картами)
+
           </h2>
           Метафорические ассоциативные карты, известные также как МАК-карты,
           представляют собой мощный инструмент, который нашел широкое применение
