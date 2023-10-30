@@ -8,8 +8,9 @@ function MainPage() {
         <div className={styles.imageContainer}>
           <img
             //  src="src/images/makcard2.jpg"
-            src={a}
-            alt="лого5"
+            src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/Z2vr/voGTfsieS"
+            //   src={b}
+            alt="лого8"
           />{" "}
         </div>
         <p className={`${styles.aboutusText}`}>
