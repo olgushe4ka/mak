@@ -1,6 +1,5 @@
 .imageDescriptionContainer {
   display: flex;
-  min-height: 70vh;
   padding: 30px 130px;
 }
 
@@ -10,11 +9,12 @@
 
 .imageContainer img {
   max-width: 250px;
+  max-height: 350px;
 }
 
-.imageContainer :hover{
- cursor: pointer;
- opacity: 0.8;
+.imageContainer :hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .descriptionContainer {

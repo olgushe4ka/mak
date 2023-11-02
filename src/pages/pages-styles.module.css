@@ -186,6 +186,38 @@
   font-size: 30px;
 }
 
+.inputBox {
+  min-height: 50vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.inputBox input {
+  width: 200px; /* Задайте нужную ширину */
+  height: 40px; /* Задайте нужную высоту */
+  /* Другие стили, например, цвет текста, фон и др. */
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.inputBox button {
+  height: 45px;
+  background-color: #0074d9;
+  color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.kolodatext {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+}
+
 @media (max-width: 1300px) {
   .portfolioImages {
     grid-template-columns: repeat(2, 1fr);
